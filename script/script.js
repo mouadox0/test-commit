@@ -57,7 +57,7 @@ function initTyping() {
         
         wpmTag.innerText = wpm;
         mistakeTag.innerText = mistakes;
-        cpmTag.innerText = charIndex - mistakes; // Ndir lkhatr l notre col
+        cpmTag.innerText = charIndex - mistakes; // Ndir lkhatr l notre col v2222
     } else {
         clearInterval(timer);
         inpField.value = "";
